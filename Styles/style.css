@@ -138,3 +138,44 @@ header{
     width: 403px;
     height: 328px;
 }
+
+/* Productive Users Styles */
+.productive-users {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-left: 141px;
+    margin-right: 159px;
+    margin-top: 116px;
+    margin-bottom: 137px;
+    padding: 50px 142px;
+}
+.users-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 158px;
+    margin-left: 142px;
+    margin-right: 142px;
+}
+.data1, .data2, .data3 {
+    text-align: center;
+}
+.fiftyk, .twom, .ninetyfive {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: -40px;
+}
+.text1, .text2, .text3 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+}
