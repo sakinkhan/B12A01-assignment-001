@@ -44,7 +44,10 @@ header{
     cursor: pointer;
 }
 .signup-button:hover{
-    color: #000;
+    background-color: #f0c411;
+    color: #453a14;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 
 /* Banner Styles */
@@ -77,6 +80,12 @@ header{
     width: 174px;
     height: 48px;
     margin-bottom: 150px;
+}
+.stay-focused-btn:hover{
+    background-color: #f0c411;
+    color: #453a14;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 /* Action Styles */
 .action {
@@ -114,6 +123,12 @@ header{
     padding: 12px 36px;
     width: 229px;
     height: 48px;
+}
+.preview-btn:hover{
+    background-color: #f0c411;
+    color: #453a14;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 .right-side {
     margin-right: 159px;
