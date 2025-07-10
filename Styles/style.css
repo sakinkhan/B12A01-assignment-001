@@ -1,0 +1,36 @@
+/* Shared Styles */
+.inter-logo{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo {
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+    font-weight: 900;
+}
+.signup-button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(78, 71, 255, 1);
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
