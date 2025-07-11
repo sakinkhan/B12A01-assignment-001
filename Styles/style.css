@@ -4,11 +4,13 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+body {
+    background-color: #f5f8ff;
 }
 /* Header Styles */
 header{
@@ -293,6 +295,13 @@ header{
 /* Get In Touch Section Styles */
 .get-in-touch {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 14px;
 }
 .git-title {
     font-size: 97px;
@@ -307,15 +316,12 @@ header{
     gap: 19px;
 
 }
-/* .form-email, .form-name, .form-message {
-    margin-top: -20px;
-} */
 .label-email, .label-name, .label-message {
     font-size: 18px;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
 }
-.form-email, .form-name, .form-message, .git-button {
+.form-email, .form-name {
     width: 497px;
 }
 .form-email, .form-name {
@@ -327,38 +333,75 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 379px;
-    /* max-width: 497px; */
     height: 70px;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 .form-message {
+    width: 31em;
     font-size: 20px;
-    columns: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(214, 221, 237, 1);
     border-radius: 10px;
     padding-left: 32px;
     padding-top: 20px;
     padding-bottom: 85px;
     padding-right: 257px;
-    /* max-width: 497px; */
     height: 135px;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 .git-button {
+    width: 100%;
+    height: 62px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(78, 71, 255, 1);
     border: none;
     border-radius: 10px;
     padding: 19px 201px;
     cursor: pointer;
-    width: 497px;
-    height: 62px;
 }
 .git-button:hover{
     background-color: #f0c411;
     color: #453a14;
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: transform 0.5s ease;
+}
+
+/* Footer Styles */
+.footer-container {
+    width: auto;
+    height: 428px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: -8px;
+    margin-bottom: -12px;
+    margin-top: 105px;
+}
+.ftr-logo {
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.ftr-text {
+    font-size: 20px;
+    font-weight: 350;
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    margin-left: 44em;
+    margin-right: 44em;
+}
+.home, .about, .how-it-works, .services {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
 }
