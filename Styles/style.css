@@ -181,7 +181,7 @@ header{
     font-weight: 400;
 }
 /* Feedback Styles */
-.f-title {
+.fdbk-title {
     font-size: 42px;
     font-weight: 700;
     color: rgba(37, 36, 50, 1);
@@ -236,6 +236,129 @@ header{
     color: rgba(179, 179, 179, 1);
 }
 .rvr-image {
-    object-fit: cover;     /* Ensures the image covers the container without distortion */
-    border-radius: 50%;      /* Makes it a perfect circle */
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+/* Focus Section Styles */
+.focus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px;
+    border: none;
+    margin-left: 151px;
+    margin-right: 149px;
+    margin-top: 137px;
+}
+.f-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-top: -5px;
+    margin-bottom: -30px;
+}
+.f-subtitle {
+    font-size: 16px;
+    font-weight: 350;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 8px;
+}
+.get-started-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    cursor: pointer;
+    width: 195px;
+    height: 48px;
+}
+.get-started-btn:hover{
+    background-color: #f0c411;
+    color: #453a14;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.f-banner {
+    border-radius: 48px;
+}
+
+/* Get In Touch Section Styles */
+.get-in-touch {
+    display: flex;
+}
+.git-title {
+    font-size: 97px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 19px;
+
+}
+/* .form-email, .form-name, .form-message {
+    margin-top: -20px;
+} */
+.label-email, .label-name, .label-message {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.form-email, .form-name, .form-message, .git-button {
+    width: 497px;
+}
+.form-email, .form-name {
+    font-size: 20px;
+    columns: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 379px;
+    /* max-width: 497px; */
+    height: 70px;
+    margin-top: -15px;
+}
+.form-message {
+    font-size: 20px;
+    columns: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 85px;
+    padding-right: 257px;
+    /* max-width: 497px; */
+    height: 135px;
+    margin-top: -15px;
+}
+.git-button {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 19px 201px;
+    cursor: pointer;
+    width: 497px;
+    height: 62px;
+}
+.git-button:hover{
+    background-color: #f0c411;
+    color: #453a14;
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
 }
