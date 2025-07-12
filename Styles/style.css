@@ -25,6 +25,7 @@ header{
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
+    padding-top: 50px;
 }
 .logo {
     color: rgba(78, 71, 255, 1);
