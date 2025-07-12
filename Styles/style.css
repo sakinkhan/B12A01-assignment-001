@@ -146,7 +146,13 @@ header{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+    box-shadow: 2px 2px 5px 5px rgb(182, 181, 181);
 }
+.webflow-conf-image:hover {
+    transform: scale(1.08);
+    transition: transform 0.5s ease;
+}
+
 
 /* Productive Users Styles */
 .productive-users {
@@ -294,7 +300,13 @@ header{
     transition: transform 0.5s ease;
 }
 .f-banner {
+    margin-top: 20px;
     border-radius: 48px;
+    box-shadow: 2px 2px 5px 5px rgb(182, 181, 181);
+}
+.f-banner:hover {
+    transform: scale(1.08);
+    transition: transform 0.5s ease;
 }
 
 /* Get In Touch Section Styles */
